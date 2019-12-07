@@ -108,10 +108,21 @@ header {
 }
 .staff-image {
   margin-bottom: 10px;
-  width: 100px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
   display: block;
 }
 .staff-name {
   text-align: center;
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
 }
